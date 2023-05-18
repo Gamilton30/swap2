@@ -1,0 +1,16 @@
+public static void main(String args[]) {
+        //swap two variables
+        Scanner scan=new Scanner(System.in);
+        int m,i,l;
+        System.out.println(" Input your first number");
+        m= scan.nextInt();
+        System.out.println(" Input your second number");
+        i= scan.nextInt();
+        l=m;
+        m=i;
+        i=l;
+        System.out.println("Swapped values are : " + m +" are "+ i);
+
+    }
+
+}
