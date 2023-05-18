@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Class {
     public static void main(String args[]) {
+        //opened and closed all doors 
         boolean opened=true;
         boolean closed=false;
         boolean passedAllDoors=false;
